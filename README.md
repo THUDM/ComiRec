@@ -1,8 +1,6 @@
-# ComiRec
+# Controllable Multi-Interest Framework for Recommendation
 
-### [Arxiv](https://arxiv.org/abs/2005.09347)
-
-Controllable Multi-Interest Framework for Recommendation.
+Original implementation for paper [Controllable Multi-Interest Framework for Recommendation](https://arxiv.org/abs/2005.09347).
 
 [Yukuo Cen](https://sites.google.com/view/yukuocen), Jianwei Zhang, Xu Zou, Chang Zhou, [Hongxia Yang](https://sites.google.com/site/hystatistics/home), [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/)
 
@@ -56,11 +54,12 @@ The structure of our code is based on [MIMN](https://github.com/UIC-Paper/MIMN).
 Please cite our paper if you find this code useful for your research:
 
 ```
-@article{cen2020controllable,
-  title={Controllable Multi-Interest Framework for Recommendation},
-  author={Cen, Yukuo and Zhang, Jianwei and Zou, Xu and Zhou, Chang and Yang, Hongxia and Tang, Jie},
-  journal={arXiv},
-  pages={arXiv--2005},
-  year={2020}
+@inproceedings{cen2020controllable,
+  title = {Controllable Multi-Interest Framework for Recommendation},
+  author = {Cen, Yukuo and Zhang, Jianwei and Zou, Xu and Zhou, Chang and Yang, Hongxia and Tang, Jie},
+  booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  year = {2020},
+  pages = {2942–2951},
+  publisher = {ACM},
 }
 ```
