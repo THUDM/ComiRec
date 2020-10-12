@@ -29,7 +29,10 @@ Accepted to KDD 2020 ADS Track!
   - http://jmcauley.ucsd.edu/data/amazon/index.html
   - https://tianchi.aliyun.com/dataset/dataDetail?dataId=649&userId=1
 
-- Two preprocessed datasets can be downloaded from https://www.dropbox.com/s/m41kahhhx0a5z0u/data.tar.gz?dl=0.
+- Two preprocessed datasets can be downloaded through: 
+
+  - Tsinghua Cloud: https://cloud.tsinghua.edu.cn/f/e5c4211255bc40cba828/?dl=1
+  - Dropbox: https://www.dropbox.com/s/m41kahhhx0a5z0u/data.tar.gz?dl=1
 
 - You can also download the original datasets and preprocess them by yourself. You can run `python preprocess/data.py {dataset_name}` and `python preprocess/category.py {dataset_name}` to preprocess the datasets. 
 
