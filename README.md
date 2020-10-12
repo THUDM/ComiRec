@@ -24,7 +24,14 @@ Accepted to KDD 2020 ADS Track!
 
 ### Dataset
 
-Two datasets can be downloaded from https://www.dropbox.com/s/m41kahhhx0a5z0u/data.tar.gz?dl=0  
+- Original links of datasets are:
+
+  - http://jmcauley.ucsd.edu/data/amazon/index.html
+  - https://tianchi.aliyun.com/dataset/dataDetail?dataId=649&userId=1
+
+- Two preprocessed datasets can be downloaded from https://www.dropbox.com/s/m41kahhhx0a5z0u/data.tar.gz?dl=0.
+
+- You can also download the original datasets and preprocess them by yourself. You can run `python preprocess/data.py {dataset_name}` and `python preprocess/category.py {dataset_name}` to preprocess the datasets. 
 
 ### Training
 
