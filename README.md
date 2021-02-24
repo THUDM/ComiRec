@@ -52,6 +52,17 @@ If you want to train models on your own dataset, you should prepare the followin
 - train/valid/test file: Each line represents an interaction, which contains three numbers `<user_id>,<item_id>,<time_stamp>`.
 - category file (optional): Each line contains two numbers `<item_id>,<cate_id>` used for computing diversity..
 
+## Common Issues
+
+<details>
+<summary>
+The computation of NDCG score.
+</summary>
+<br/>
+I'm so sorry that the computation of NDCG score is not consistent with the original definition, as mentioned in the issue #6. 
+I have updated the computation of NDCG score in the dev branch according to the original definition. 
+Therefore, I personally recommend to use the results of recall and hit rate only.
+</details>
 
 If you have ANY difficulties to get things working in the above steps, feel free to open an issue. You can expect a reply within 24 hours.
 
