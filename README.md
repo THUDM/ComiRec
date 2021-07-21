@@ -59,10 +59,11 @@ If you want to train models on your own dataset, you should prepare the followin
 The computation of NDCG score.
 </summary>
 <br/>
-I'm so sorry that the computation of NDCG score is not consistent with the original definition, as mentioned in the issue #6. 
-I have updated the computation of NDCG score in the dev branch according to the original definition. 
-Therefore, I personally recommend to use the results of recall and hit rate only.
+I'm so sorry that the computation of NDCG score in the original version (now in `paper` branch) is not consistent with the definition in the paper, as mentioned in the issue #6. 
+I have updated the computation of NDCG score in the `master` branch according to the correct definition. For reproducing the NDCG scores reported in the paper, please use the `paper` branch.
+By the way, I personally recommend to use the reported results of recall and hit rate only.
 </details>
+
 
 If you have ANY difficulties to get things working in the above steps, feel free to open an issue. You can expect a reply within 24 hours.
 
